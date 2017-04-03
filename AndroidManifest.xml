@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grocery.grocery" >
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".signup"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:noHistory="true" />
+        <activity android:name=".Admin_login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Admin_request_box" />
+        <activity android:name=".Admin_add_products" />
+        <activity android:name=".Admin_button_details" />
+        <activity android:name=".Admin_remove_list" />
+        <activity android:name=".Admin_remove_product" />
+        <activity android:name=".Admin_update_list" />
+        <activity android:name=".Admin_update_product" />
+        <activity android:name=".Admin_details" />
+        <activity android:name=".product_disc" />
+        <activity android:name=".cart" />
+        <activity android:name=".Request_box"/>
+    <activity android:name=".payment"
+            android:noHistory="true"/>
+        <activity android:name=".userdetails_display"/>
+
+    </application>
+
+</manifest>
